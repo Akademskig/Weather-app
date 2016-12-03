@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Weather app</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1 class="head"><i class="wi wi-owm-200 ich"></i> Check the weather! app <i class="wi wi-owm-904 ich"></i></h1>
+      <div class="body img-responsive">
+        <div id="data" class="well ">
+          <div id="loc" class="data img-responsive"> Location </div>
+          <div id="weather" class="data"> Weather
+          </div>
+          <div id="icon"> --- </div>
+          <div id="temp">Current temperature:
+          </div>
+          <button class="btn btn-primary">---</button>
+
+          <div id="humidity" class="data">humidity</div>
+          <div id="pressure" class="data">pressure</div>
+
+          <div id="wind" class="data">Wind
+            <p class="wind "></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
