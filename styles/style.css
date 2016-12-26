@@ -1,69 +1,57 @@
-
 body {
   background-color: black;
+  color: white;  
+  font: 30px "Indie Flower";
+  text-align: center;
 }
 
 .body {
-  background-image: url("https://lh3.ggpht.com/e7K-CHFYUTXfqXqxnBJV0jgQWmSbkVHwvVYj65W0VpI420OrkCNiqSPfRhconWs1n-r1=h900");
-  width: 50%;
+  background-image: url("https://lh3.ggpht.com/e7K-CHFYUTXfqXqxnBJV0jgQWmSbkVHwvVYj65W0VpI420OrkCNiqSPfRhconWs1n-r1=h900");  
   height: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 5px auto 0px auto;
   border-radius: 20px;
   padding-top: 20px;
-  position: relative;
+  width: 50%;
 }
 
 .head {
-  font-size: 50px;
   color: white;
-  text-align: center;
-  font-family: "Indie Flower";
+  font: 50px "Indie Flower";  
   margin-top: 50px;
+  text-align: center;    
 }
 
-.btn {
-  align: center;
+.btn {  
   background-color: #0D1D3C;
   border-radius: 20px;
-  font-size: 30px;
   margin-bottom: 5px;
-  cursor: pointer;
+  font-size: 30px;  
 }
 
-#data {
-  text-align: center;
-  font-size: 30px;
-  font-family: "Indie Flower";
-  color: white;
+#data { 
   background-color: #19366B;
-  margin-left: auto;
-  margin-right: auto;
-  width: 380px;
-  margin-top: 60px;
   border-radius: 50px;
+  margin: 60px auto 0 auto;
   opacity: 0.9;
-  position: relative;
+  width: 50%;
 }
 
 #icon {
   background-color: #0D1D3C;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90px;
-  font-size: 50px;
   border-radius: 50px;
-  padding: 10px;
-  padding-bottom: 0px;
-  align: middle;
+  margin-left: auto;
+  margin-right: auto;  
+  font-size: 50px; 
+  padding: 10px; 
+  width: 65px;
+  height: 65px;
 }
 
 #loc {
-  font-size: 35px;
-  padding: 10px;
   background-color: #0D1D3C;
   border-radius: 50px;
+  font-size: 35px;
+  padding: 10px;  
 }
 
 #weather {
@@ -72,11 +60,6 @@ body {
 
 .data {
   padding: 5px;
-}
-
-#windicon {
-  z-index: 10;
-  color: black;
 }
 
 .ich {
