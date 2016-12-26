@@ -7,11 +7,12 @@ body {
 
 .body {
   background-image: url("https://lh3.ggpht.com/e7K-CHFYUTXfqXqxnBJV0jgQWmSbkVHwvVYj65W0VpI420OrkCNiqSPfRhconWs1n-r1=h900");  
+  background-size: 1500px;
   height: 900px;
   margin: 5px auto 0px auto;
   border-radius: 20px;
   padding-top: 20px;
-  width: 50%;
+  max-width: 650px;
 }
 
 .head {
@@ -23,14 +24,20 @@ body {
 
 .btn {  
   background-color: #0D1D3C;
+  border: solid 1px white;
   border-radius: 20px;
-  margin-bottom: 5px;
-  font-size: 30px;  
+  color: white;
+  cursor: pointer;
+  font: 30px "Indie Flower";
+  margin-bottom: 5px;   
+  opacity: 1;
+  padding: 5px;
 }
 
 #data { 
   background-color: #19366B;
   border-radius: 50px;
+  border: solid 1px white;
   margin: 60px auto 0 auto;
   opacity: 0.9;
   width: 50%;
@@ -49,7 +56,8 @@ body {
 
 #loc {
   background-color: #0D1D3C;
-  border-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   font-size: 35px;
   padding: 10px;  
 }
