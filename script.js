@@ -32,7 +32,7 @@ $.getJSON("http://ip-api.com/json", function(jsonPos) {
           $(".btn").html(tempF + "° F");
           $(".wind").html("Wind Speed: " + windmph + " mph");
         }
-        if ($(".btn").is(":contains('° F')")) {
+        else if ($(".btn").is(":contains('° F')")) {
           $(".btn").html(tempC + "° C");
           $(".wind").html("Wind Speed: " + windKph + " kph");
         }
