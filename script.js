@@ -36,6 +36,9 @@ $.getJSON("http://ip-api.com/json", function(jsonPos) {
           $(".btn").html(tempC + "° C");
           $(".wind").html("Wind Speed: " + windKph + " kph");
         }
+        else{
+          $(".btn").html("Button is not working");
+        }
       });
     })
     .fail(function(error) {
