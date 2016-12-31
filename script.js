@@ -1,7 +1,7 @@
 $.getJSON("http://ip-api.com/json", function(jsonPos) {
   var lat = jsonPos.lat;
   var lon = jsonPos.lon;
-
+  
   var call = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=b8f4759ff5ad0b84e904462161d6bb60";
 
   $.get(call + "&units=metric", "jsonp")
@@ -31,7 +31,6 @@ $.getJSON("http://ip-api.com/json", function(jsonPos) {
         if ($(".btn").is(":contains('° C')")) {
           $(".btn").html(tempF + "° F");
           $(".wind").html("Wind Speed: " + windmph + " mph");
-          $(".btn").console.log;
         }
         if ($(".btn").is(":contains('° F')")) {
           $(".btn").html(tempC + "° C");
@@ -39,7 +38,7 @@ $.getJSON("http://ip-api.com/json", function(jsonPos) {
         }
       });
     })
-    .error(function(error) {
-      console.log(error)
+    .fail(function(error) {
+      throw error;
     });
 })
